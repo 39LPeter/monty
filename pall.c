@@ -1,17 +1,15 @@
-#include <monty.h>
+#include "monty.h"
 void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
-	(void)counter;  
-	h = *head;  
-	if (h == NULL)
-        return;  
+	(void)counter;
 
-    
+	h = *head;
+	if (h == NULL)
+		return;
 	while (h)
 	{
-        	printf("%d\n", h->n);
-        	h = h->next;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 }
-

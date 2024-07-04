@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
-  *The opcode rotl rotates the stack to the top
-  *The top element of the stack becomes the last one, and the second top element of the stack becomes the first one
-  *rotl never fails
+  *f_rotl- rotates the stack to the top
+  *@head: stack head
+  *@counter: line_number
   *Return: no return
  */
 void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
